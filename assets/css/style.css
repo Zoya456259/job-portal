@@ -1,0 +1,148 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #263238;
+    line-height: 1.6;
+    text-align: center;
+}
+
+h1 {
+    background-color: #16324f;
+    color: white;
+    padding: 30px 15px;
+    margin: 0;
+}
+
+body > p,
+body > h2,
+body > h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    color: #16324f;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #245b83;
+}
+
+a {
+    display: inline-block;
+    background-color: #247ba0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    margin: 5px;
+}
+
+a:hover {
+    background-color: #16324f;
+}
+form {
+    max-width: 420px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    background-color: #247ba0;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #16324f;
+}
+
+form button {
+    width: 100%;
+}
+
+table {
+    width: 90%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #16324f;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f7fb;
+}
+
+tr:hover {
+    background-color: #e8f1f8;
+}
+
+/* Fix Edit and Delete buttons inside tables */
+td form {
+    display: inline-block !important;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    vertical-align: middle;
+}
+
+td form button {
+    width: auto;
+    margin: 0;
+    padding: 10px 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+td a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px 0 0;
+}
